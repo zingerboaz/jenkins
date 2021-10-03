@@ -1,0 +1,14 @@
+<!-- <label>symbol:<input #symbol></label> <button (click)='search(symbol.value)'>search</button> -->
+
+<div class="ggg" >
+<div class="input-group">
+    <label> <input #symbol type="search" class="form-control rounded" placeholder="Type  symbol currency" aria-label="Search"
+      aria-describedby="search-addon" /></label>
+    <button (click)='search(symbol.value)' type="button" class="btn btn-outline-primary">{{textButton}}</button>
+    
+</div>
+<p></p>
+<app-currency *ngIf="a==2" [currency]="b"></app-currency>
+ <h1 *ngIf='a==1'>No such coin was found</h1>
+
+</div>

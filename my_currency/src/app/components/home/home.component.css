@@ -1,0 +1,43 @@
+.parallax {
+    height:100%;
+    background-image: url("https://images1.calcalist.co.il/PicServer2/20122005/330124/shutterstock_82376824_l.jpg");
+   
+  
+  /* Set a specific height */
+  height: 500px;
+  
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  .parallax1 {
+    height:100%;
+    background-image: url("https://keshet100.co.il/wp-content/uploads/2018/04/94032211_s-575x383.jpg"); 
+   
+  
+  /* Set a specific height */
+  height: 500px;
+  
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  .parallax2 {
+    height:100%;
+    background-image: url("https://images.globes.co.il/images/NewGlobes/big_image_800/2018/AA999658B8B4E3EEA912327935911BCC_800x392.20180222T090320.jpg"); 
+   
+  
+  /* Set a specific height */
+  height: 500px;
+  
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  

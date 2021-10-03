@@ -1,0 +1,28 @@
+
+ 
+
+   <div class="card">
+     <div class="card-body">
+       <h5 class="card-title">{{currency.symbol}}</h5>
+       <p class="card-text">{{currency.name}}</p>
+ 
+
+<!-- Rounded switch -->
+<label class="switch">
+  <input [disabled]="buttDisble"(change)="add()"  type="checkbox">
+  <span class="slider round"></span>
+</label>
+         
+         <button  (click)='exstraInfo(currency.id)' class="btn btn-primary">
+           for more info
+         </button>
+       <p></p>
+       </div>
+   </div>
+       <div class="collapse " [ngClass]="{show:show}"  >
+        <app-info *ngIf="morInfo" [more]="morInfo"></app-info>
+       </div>
+      
+       
+<button [disabled]="buttDisble"(click)='add()'class='btn btn-success'> Realitime </button>
+          
